@@ -1,5 +1,31 @@
 @charset "utf-8";
 
-.red{
-	color:red;	
+@font-face {
+	font-family: 'funwari';
+	src: url(../fonts/funwari-round.otf);
+}
+@font-face {
+	font-family: 'sand';
+	src: url(../fonts/Quicksand-Bold.otf);
+}
+
+body{
+	background-color: #A8D999;
+	background-image: url(../image/bg.png);
+}
+
+main{
+padding: 100px 10px;
+text-align: center;
+color: #a96c36;
+font-family: sand;
+
+}
+
+h1{
+	font-family: funwari;
+}
+
+main p{
+	font-size: 1.5rem;	
 }
